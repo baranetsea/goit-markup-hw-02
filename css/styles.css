@@ -1,0 +1,278 @@
+body {font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;}
+
+/* global */
+h2 {font-weight: 700;}
+h3 {font-weight: 500;}
+
+                                   /* header */
+/* logo */
+
+.logo {font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 1.2;
+letter-spacing: 3%;
+}
+.logo-left {color: #4D5AE5}
+
+/* nav.menu */
+
+.nav-menu a {
+color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+line-height: 1.5;
+letter-spacing: 2%;
+}
+.nav-menu {list-style-type: none;}
+.nav-menu a:hover{color: #404BBF;}
+.nav-menu a:active{color: #404BBF;}
+.nav-menu a:focus{columns: #404BBF;}
+
+/* contacts */
+
+.contacts a {color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: none;
+font-style: normal;}
+.contacts {list-style-type: none;}
+.contacts a:hover {color: #404BBF;}
+.contacts a:focus{color: #404BBF;}
+
+                                                              /* main */
+/* =============== section hero img =============== */
+
+.section-hero-img {background-color: #2E2F42;}
+
+h1 {font-weight: 700;
+font-size: 56px;
+line-height: 1.1;
+letter-spacing: 2%;
+text-align: center;
+color: #FFFFFF;
+}
+.hero-button {
+color: #FFFFFF;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 4%;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.hero-button:hover{background-color: #404BBF;}
+
+/* =============== section features =============== */
+
+.h2-hidden{visibility: hidden;}
+
+.section-features>h3 {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 2%;
+color: #2E2F42;
+}
+
+.section-features p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #434455;
+}
+.section-features li {list-style-type: none;}
+
+/* =============== section our team =============== */
+
+.section-our-team {background-color: #F4F4FD;}
+.section-our-team li {list-style-type: none;}
+.section-our-team > h2{font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 2%;
+text-align: center;
+color: #2E2F42;}
+
+/* card one */
+
+.team-card-one h3 {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #2E2F42;}
+
+.team-card-one p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #434455;}
+
+/* card two */
+
+.team-card-two h3 {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #2E2F42;}
+
+.team-card-two p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #434455;}
+
+/* card three */
+
+.team-card-three h3 {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #2E2F42;}
+
+.team-card-three p{font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+/* text-align: center; */
+color: #434455;}
+
+/* card four */
+
+.team-card-four h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    /* text-align: center; */
+    color: #2E2F42;}
+.team-card-four p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    /* text-align: center; */
+    color: #434455;}
+
+    /* =============== section our portfolio =============== */
+
+.section-our-portfolio > h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 2%;
+text-align: center;
+color: #2E2F42;}
+
+.section-our-portfolio li {
+list-style-type: none;}
+
+/* banking app */
+
+.bank-app h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+.bank-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+/* cashless p */
+
+.cashless-p h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;}
+.cashless-p p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;}
+
+    /* meditation app */
+
+.meditation-app h3 {font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;}
+.meditation-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;}
+
+    /* taxi service */
+
+.taxi-service h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;}
+.taxi-service p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;}
+
+/* screen ill */
+
+.screen-ill h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;}
+.screen-ill p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;}
+
+/* online courses */
+
+.online-courses h3{ont-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2E2F42;}
+.online-courses p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;}
+
+                                            /* footer */
+/* footer style */
+
+.footer {background-color: #2E2F42;}
+.footer-p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #F4F4FD;}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 3%;
+}
+
+.logo-left {
+    color: #4D5AE5
+}
+
