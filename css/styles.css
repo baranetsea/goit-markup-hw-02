@@ -14,10 +14,11 @@ font-weight: 700;
 font-size: 18px;
 text-transform: uppercase;
 text-decoration: none;
-line-height: 1.2;
-letter-spacing: 3%;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #4D5AE5;
 }
-.logo-left {color: #4D5AE5}
+.logo-left {color: #2E2F42}
 
 /* nav.menu */
 
@@ -27,14 +28,16 @@ font-weight: 500;
 font-size: 16px;
 text-decoration: none;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 }
 .nav-menu {list-style-type: none;}
 .nav-menu a:hover{color: #404BBF;}
 .nav-menu a:active{color: #404BBF;}
-.nav-menu a:focus{columns: #404BBF;}
+.nav-menu a:focus{color: #404BBF;}
 
 /* contacts */
+
+.address {font-style: normal;}
 
 .contacts a {color: #434455;
 font-weight: 400;
@@ -53,8 +56,8 @@ font-style: normal;}
 
 h1 {font-weight: 700;
 font-size: 56px;
-line-height: 1.1;
-letter-spacing: 2%;
+line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
 }
@@ -63,7 +66,7 @@ color: #FFFFFF;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 4%;
+letter-spacing: 0.04em;
 background-color: #4D5AE5;
 cursor: pointer;
 }
@@ -76,27 +79,28 @@ cursor: pointer;
 .section-features>h3 {
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
 .section-features p {font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #434455;
 }
 .section-features li {list-style-type: none;}
 
 /* =============== section our team =============== */
 
-.section-our-team {background-color: #F4F4FD;}
+.section-our-team {background-color: #FFFFFF;}
 .section-our-team li {list-style-type: none;}
 .section-our-team > h2{font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
-letter-spacing: 2%;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2E2F42;}
 
 /* card one */
@@ -104,7 +108,7 @@ color: #2E2F42;}
 .team-card-one h3 {
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #2E2F42;}
 
@@ -112,7 +116,7 @@ color: #2E2F42;}
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #434455;}
 
@@ -121,7 +125,7 @@ color: #434455;}
 .team-card-two h3 {
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #2E2F42;}
 
@@ -129,7 +133,7 @@ color: #2E2F42;}
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #434455;}
 
@@ -138,14 +142,14 @@ color: #434455;}
 .team-card-three h3 {
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #2E2F42;}
 
 .team-card-three p{font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 /* text-align: center; */
 color: #434455;}
 
@@ -153,13 +157,13 @@ color: #434455;}
 
 .team-card-four h3{font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     /* text-align: center; */
     color: #2E2F42;}
 .team-card-four p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     /* text-align: center; */
     color: #434455;}
 
@@ -168,9 +172,10 @@ color: #434455;}
 .section-our-portfolio > h2 {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
-letter-spacing: 2%;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2E2F42;}
 
 .section-our-portfolio li {
@@ -180,13 +185,13 @@ list-style-type: none;}
 
 .bank-app h3{font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .bank-app p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -194,60 +199,60 @@ list-style-type: none;}
 
 .cashless-p h3{font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;}
 .cashless-p p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;}
 
     /* meditation app */
 
 .meditation-app h3 {font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;}
 .meditation-app p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;}
 
     /* taxi service */
 
 .taxi-service h3{font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;}
 .taxi-service p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;}
 
 /* screen ill */
 
 .screen-ill h3{font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;}
 .screen-ill p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;}
 
 /* online courses */
 
 .online-courses h3{ont-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;}
 .online-courses p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;}
 
                                             /* footer */
@@ -257,7 +262,7 @@ list-style-type: none;}
 .footer-p {font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #F4F4FD;}
 
 /* logo */
@@ -268,11 +273,12 @@ color: #F4F4FD;}
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.2;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+color: #4D5AE5;
 }
 
 .logo-left {
-    color: #4D5AE5
+    color: #2E2F42
 }
 
