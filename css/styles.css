@@ -30,9 +30,9 @@ text-decoration: none;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.nav-menu-a:hover{color: #404BBF;}
-.nav-menu-a:active{color: #404BBF;}
-.nav-menu-a:focus{color: #404BBF;}
+.nav-menu-a:hover{color:#404BBF;}
+.nav-menu-a:active{color:#404BBF;}
+.nav-menu-a:focus{color:#404bbf;}
 .nav-menu-li {list-style-type: none;}
 
 /* contacts */
