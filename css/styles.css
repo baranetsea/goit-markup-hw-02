@@ -97,8 +97,8 @@ color: #434455;
 /* =============== section our team =============== */
 
 .section-our-team {background-color: #F4F4FD;}
-.section-our-team li {list-style-type: none;}
-.section-our-team > h2{font-weight: 700;
+.section-our-team-li {list-style-type: none; background-color: #FFFFFF;}
+.section-our-team-h-two{
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -106,74 +106,18 @@ text-align: center;
 text-transform: capitalize;
 color: #2E2F42;}
 
-/* card one */
+/* card one h3+p styles from section2 */
 
-.team-card-one h3 {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #2E2F42;}
+/* card two h3+p styles from section2 */
 
-.team-card-one p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #434455;}
+/* card three h3+p styles from section2 */
 
-/* card two */
-
-.team-card-two h3 {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #2E2F42;}
-
-.team-card-two p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #434455;}
-
-/* card three */
-
-.team-card-three h3 {
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #2E2F42;}
-
-.team-card-three p{font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-/* text-align: center; */
-color: #434455;}
-
-/* card four */
-
-.team-card-four h3{font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    /* text-align: center; */
-    color: #2E2F42;}
-.team-card-four p {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* text-align: center; */
-    color: #434455;}
+/* card four h3+p styles from section2 */
 
     /* =============== section our portfolio =============== */
 
-.section-our-portfolio > h2 {
-font-weight: 700;
+.section-our-portfolio-h-two {
+/* font-weight: 700; */
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -184,79 +128,85 @@ color: #2E2F42;}
 .section-our-portfolio li {
 list-style-type: none;}
 
-/* banking app */
+/* banking app h3+p from section 2*/
 
-.bank-app h3{font-size: 20px;
+/* .bank-app h3{font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
-.bank-app p {font-weight: 400;
+} */
+/* .bank-app p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} */
 
 /* cashless p */
 
-.cashless-p h3{font-size: 20px;
+/* .cashless-p h3{font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
-.cashless-p p{font-weight: 400;
+    color: #2E2F42;} */
+
+/* .cashless-p p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 
     /* meditation app */
 
-.meditation-app h3 {font-size: 20px;
+/* .meditation-app h3 {font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
-.meditation-app p {font-weight: 400;
+    color: #2E2F42;} */
+
+/* .meditation-app p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 
     /* taxi service */
 
-.taxi-service h3{font-size: 20px;
+/* .taxi-service h3{font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;}
-.taxi-service p{font-weight: 400;
+     */
+
+/* .taxi-service p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 
 /* screen ill */
 
-.screen-ill h3{font-size: 20px;
+/* .screen-ill h3{font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
-.screen-ill p{font-weight: 400;
+    color: #2E2F42;} */
+
+/* .screen-ill p{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 
 /* online courses */
 
-.online-courses h3{ont-size: 20px;
+/* .online-courses h3{ont-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
-.online-courses p {font-weight: 400;
+    color: #2E2F42;} */
+
+/* .online-courses p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;} */
 
                                             /* footer */
 /* footer style */
